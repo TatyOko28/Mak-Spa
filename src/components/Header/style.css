@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #bfd4dc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .watch {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  .cd{
+    width: 100px;
+  height: 100px;
+  }

@@ -1,0 +1,65 @@
+/* Style de base pour le conteneur principal */
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Style des critiques individuelles */
+  .review {
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 20px;
+    width: 80%;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .review h3 {
+    margin: 0 0 10px 0;
+    color: #333;
+  }
+  
+  .review p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  .review small {
+    display: block;
+    margin-top: 10px;
+    color: #aaa;
+  }
+  
+  /* Style de la pagination */
+  .pagination {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .page-item {
+    margin: 0 5px;
+  }
+  
+  .page-link {
+    background-color: transparent;
+    border: none;
+    color: blue;
+    cursor: pointer;
+    padding: 5px 10px;
+    text-decoration: underline;
+    font-size: 16px;
+  }
+  
+  .page-link:hover, .page-link:focus {
+    text-decoration: none;
+    outline: none;
+  }
+  
+  /* Ajoutez ici des styles supplémentaires selon vos besoins */
+  
